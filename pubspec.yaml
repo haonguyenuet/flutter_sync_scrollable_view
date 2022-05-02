@@ -1,0 +1,33 @@
+name: sync_scrollable_list_tabs
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0-266.5.beta <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  flutter_rating_bar: ^4.0.0
+  intl: ^0.17.0
+  scroll_to_index: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/nuoc_uong/
+    - assets/images/banh/
+    - assets/images/banh_ngot/
+    - assets/images/banh_quy/
